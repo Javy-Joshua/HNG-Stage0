@@ -14,8 +14,8 @@ app.get("/api", (req, res) => {
 
     const details = {
       email: Henny.Henny.registeredEmail,
-      timestamp: currentDateTime,
-      githubUrl: Henny.Henny.githubUrl,
+      current_datetime: currentDateTime,
+      github_url: Henny.Henny.githubUrl,
     };
 
     
