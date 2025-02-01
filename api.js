@@ -21,10 +21,7 @@ app.get("/api", (req, res) => {
     
     console.log(details);
 
-    return res.status(200).json({
-        message: "details created",
-        details 
-    })
+    return res.status(200).json(details)
 
 })
 
